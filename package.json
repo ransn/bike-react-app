@@ -1,0 +1,41 @@
+{
+  "name": "bike-react-app",
+  "version": "1.0.0",
+  "description": "Bike app using react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ransn/bike-react-app.git"
+  },
+  "keywords": [
+    "React",
+    "React-Hook"
+  ],
+  "author": "SNR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ransn/bike-react-app/issues"
+  },
+  "homepage": "https://github.com/ransn/bike-react-app#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.10.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-hot-loader": "^4.13.0"
+  }
+}
